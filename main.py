@@ -1,21 +1,91 @@
-number = int(input("Choose a number from 1-100"))
-if number > 100 or number < 1:
-    print("error")
-elif number % 3 == 0 and number % 5 == 0:
-    print("Fizz Buzz")
-elif number % 3 == 0:
-    print("Fizz")
-elif number % 5 == 0:
-    print("Buzz")
+# begin = int(input("Enter beginning"))
+# end = int(input("Enter end"))
+#
+# for i in range(begin, end + 1):
+# 	for j in range(1, 10 + 1):
+# 		print(f"{i} * {j} = {i * j}")
 
 
-salary = 200
-num1 = 200
-num2 = 200
-per = 0.3
+# i = 0
+# while i < 10:
+# 	j = 0
+# 	print("nested loop begins")
+# 	while j < 0:
+# 		print(f"i = {i} ; j = {j}")
+# 		j += 1
+# 	i += 1
 
-per1 = int(input("sales of manager1"))
-per2 = int(input("sales of manager2"))
-per3 = int(input("sales of manager3"))
+# begin = int(input("Enter beginning"))
+# end = int(input("Enter end"))
+# i = begin
+# while i < end:
+# 	j = 1
+#
+# 	while j <= 10:
+# 		print(f"{i} * {j} = {i * j}")
+# 		j += 1
 
-if per1 <= 
+#
+# for i in range(5):
+# 	for j in range(5):
+# 		if i == 2 and j == 2:
+# 			print(" ", end="")
+# 		else:
+# 			print("  ", end="")
+# 		print("* ", end = "")
+# 	print ()
+
+for i in range(5):
+	for j in range(5):
+		if 1 <= i <= 3 and 1 <= j <= 3:
+			print("   ", end="")
+		else:
+			print("*  ", end="")
+	print()
+
+print()
+
+for i in range(3):
+	for j in range(7):
+		if i == 1 and 1 <= j <= 5:
+			print("   ", end="")
+		else:
+			print("*  ", end="")
+	print()
+
+print()
+
+for i in range(7):
+	for j in range(3):
+		if j == 1 and 1 <= i <= 5:
+			print("   ", end="")
+		else:
+			print("*  ", end="")
+	print()
+
+print()
+
+stars = 6
+spaces = 0
+for i in range(stars):
+	for j in range(spaces):
+		print("  ", end="")
+	for j in range(stars):
+		print("  * ", end="")
+	spaces += 1
+	stars -= 1
+	print()
+
+print()
+
+stars = 1
+spaces = 5
+for i in range(stars):
+	for j in range(stars):
+		print("  ", end="")
+	for j in range(spaces):
+		print("  * ", end="")
+	stars -= 1
+	spaces += 1
+	print()
+
